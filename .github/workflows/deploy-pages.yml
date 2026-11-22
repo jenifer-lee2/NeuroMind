@@ -1,0 +1,51 @@
+
+name: Publicar NeuroMind Web
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório Web
+        uses: actions/checkout@v4
+
+      - name: Baixar pacote Web do repositório principal
+        run: |
+          curl -fL \
+            "https://github.com/jenifer-lee2/NeuroMind_Pac/releases/download/v1.0.0/NeuroMind-v1.0.0-web.zip" \
+            -o web.zip
+
+      - name: Extrair pacote Web
+        run: |
+          mkdir -p extracao
+          unzip -o web.zip -d extracao
+          PCK=$(find extracao -type f -iname "NeuroMind.pck" | head -n 1)
+          test -n "$PCK"
+          cp "$PCK" docs/NeuroMind.pck
+          test -s docs/NeuroMind.pck
+
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar arquivos do site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Publicar no GitHub Pages
+        uses: actions/deploy-pages@v4
