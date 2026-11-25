@@ -1,4 +1,4 @@
-﻿ <p align="center">
+ <p align="center">
   <img src="pip.png" alt="Sinap - personagem-guia do NeuroMind" width="220">
 </p>
 
@@ -13,9 +13,9 @@
 
 ## 🧠 Sobre o projeto
 
-**NeuroMind** é um jogo educativo de aventura desenvolvido para transformar o aprendizado em uma experiência interativa, explorando conceitos de lógica, probabilidade e estatística.
+**NeuroMind** é um jogo educativo de aventura desenvolvido para transformar o aprendizado em uma experiência interativa, explorando conceitos de lógica, probabilidade e raciocínio matemático.
 
-O jogador embarca em uma jornada pelo mundo do conhecimento, enfrentando desafios e enigmas para restaurar as sinapses e recuperar a fonte mágica.
+O jogador embarca em uma jornada pelo mundo do conhecimento, enfrentando desafios, quebra-cabeças e enigmas para restaurar as sinapses e recuperar a fonte mágica.
 
 Durante a aventura, o jogador conta com a companhia de **Sinap**, um personagem-guia que oferece orientações, apresenta os desafios e auxilia na compreensão dos conteúdos.
 
@@ -27,27 +27,44 @@ O NeuroMind busca estimular:
 
 - Raciocínio lógico e resolução de problemas;
 - Compreensão de conceitos de probabilidade;
-- Interpretação de dados e informações estatísticas;
-- Análise de resultados e comparação de possibilidades;
-- Aprendizagem por experimentação e tomada de decisões.
+- Reconhecimento e identificação de padrões;
+- Raciocínio visual e espacial;
+- Organização de sequências lógicas;
+- Capacidade de análise e tomada de decisões.
 
 ## 🗺️ A jornada
 
-A aventura é organizada em fases, com desafios progressivos que integram narrativa e aprendizagem.
+A aventura é organizada em quatro fases, cada uma com desafios próprios e níveis progressivos de complexidade.
 
-### Fase 1 — Restaurando as Sinapses
+### Fase 1 — Vila das Possibilidades
 
-A missão inicial é restaurar a fonte mágica e recuperar as sinapses por meio de quatro desafios. O jogador precisa resolver os enigmas apresentados para avançar na jornada e reconstruir o conhecimento perdido.
+A jornada começa na Vila das Possibilidades, onde o jogador precisa superar quatro desafios para restaurar as sinapses.
+
+Os desafios introduzem conceitos de probabilidade por meio de perguntas e situações que exigem análise das possibilidades e escolha das respostas corretas.
 
 ### Fase 2 — Floresta dos Padrões
 
-Nesta etapa, o jogador explora conceitos de probabilidade e estatística por meio de experimentos com dados.
+Na Floresta dos Padrões, o jogador é convidado a resolver quebra-cabeças mágicos.
 
-Um dos desafios é o **Altar dos Lançamentos**, no qual o jogador realiza lançamentos de um dado, registra resultados, observa frequências absolutas e relativas e interpreta gráficos.
+Os desafios trabalham o reconhecimento de formas, a identificação de padrões visuais e a organização de elementos em uma matriz, estimulando a percepção visual e o raciocínio lógico.
+
+### Fase 3 — Matrizes do Enigma
+
+Nesta fase, o jogador enfrenta desafios de matrizes lógicas, nos quais precisa observar padrões, identificar relações entre elementos e encontrar a peça que completa corretamente o enigma.
+
+A etapa estimula o pensamento analítico, a identificação de regularidades e a resolução de problemas por meio do raciocínio visual.
+
+### Fase 4 — Arranjos Mágicos
+
+Na última fase, o jogador precisa organizar elementos e imagens na sequência lógica correta.
+
+Os desafios envolvem a identificação da ordem dos acontecimentos, a interpretação de sequências e a compreensão das relações entre diferentes etapas de um processo.
 
 ## 🧠 Personagem-guia — Sinap
 
-**Sinap** acompanha o jogador durante a aventura, oferecendo orientações e comentários para tornar a experiência de aprendizagem mais intuitiva e envolvente.
+**Sinap** acompanha o jogador durante toda a aventura, oferecendo orientações, explicações e comentários sobre os desafios.
+
+Com seu visual de personagem-cérebro, óculos e lâmpada, Sinap representa o conhecimento, a descoberta e o desenvolvimento do raciocínio.
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -82,9 +99,3 @@ Um dos desafios é o **Altar dos Lançamentos**, no qual o jogador realiza lanç
 **Instituição:** Centro Universitário Católica de Santa Catarina  
 **Curso:** Engenharia de Software  
 **Projeto:** PAC III
-
----
-
-<p align="center">
-  🧠 <strong>NeuroMind — Aprender, explorar e descobrir através de desafios!</strong>
-</p>
